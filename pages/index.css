@@ -1,0 +1,64 @@
+body {
+  background-color: #fafafa;
+}
+.selected-filters .badges {
+  display: inline;
+}
+.selected-filters .badges span {
+  text-transform: capitalize;
+}
+.selected-filters .badges .btn {
+  margin-right: 5px;
+}
+.selected-filters .badges img {
+  width: 10px;
+  height: 10px;
+}
+.filters {
+  background-color: #fff;
+}
+.filter-box {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+.filter-box h4 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.filter-box label {
+  font-size: 13px;
+}
+h2 {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-content {
+  padding: 20px;
+}
+.card-body {
+  padding: 0px;
+}
+.card {
+  min-height: 100%;
+  transition: all ease 0.3s;
+}
+.card th,
+.card td {
+  vertical-align: top;
+}
+.search-area {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+}
+.filter-head {
+  background-color: #efa473;
+  display: flex;
+  align-items: center;
+}
+.filter-head h2 {
+  color: #fff;
+  margin: 0;
+}
